@@ -1,0 +1,1 @@
+require 'wirecard_rails'
