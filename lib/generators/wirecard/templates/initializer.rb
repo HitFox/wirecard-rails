@@ -10,5 +10,5 @@ Wirecard.configure do |config|
   config.service_url = 'http://localhost.service.url'
   config.confirm_url = 'http://localhost.confirm.url'
   config.return_url = 'http://localhost.return.url'
-  config.language = 'en'
+  config.language = I18n.default_locale[0..1]
 end
