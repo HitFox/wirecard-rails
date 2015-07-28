@@ -1,7 +1,5 @@
-require 'wirecard_rails'
+require 'wirecard/rails'
 
-module Wirecard
-  module Rails
-    VERSION = "0.1.2"
-  end
-end
+require 'generators/wirecard/config_generator'
+require 'generators/wirecard/install_generator'
+
