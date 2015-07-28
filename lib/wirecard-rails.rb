@@ -1,3 +1,4 @@
+require 'wirecard'
 require 'wirecard/rails'
 
 require 'generators/wirecard/config_generator'
