@@ -1,5 +1,5 @@
-module Generators
-  module Wirecard
+module Wirecard
+  module Generators
     class InstallGenerator < Rails::Generators::Base
 
       def run_other_generators
