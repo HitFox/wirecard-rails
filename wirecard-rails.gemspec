@@ -23,4 +23,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "rails", "~> 4.2"
   
   spec.add_runtime_dependency "wirecard"
+  spec.add_runtime_dependency "state_machines-activerecord", "~> 0.2.0"
 end
