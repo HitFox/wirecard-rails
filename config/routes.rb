@@ -1,2 +1,2 @@
-WirecardRails::Engine.routes.draw do
+Wirecard::Rails::Engine.routes.draw do
 end
