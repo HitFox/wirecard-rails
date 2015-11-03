@@ -5,7 +5,7 @@ require "wirecard/rails/version"
 
 Gem::Specification.new do |spec|
   spec.name          = "wirecard-rails"
-  spec.version       = Wirecard::Rails::VERSION
+  spec.version       = Wirecard::Rails.version
   spec.authors       = ["Dominic Breuker", "Michael Rüffer"]
   spec.email         = ["dominic.breuker@hitfoxgroup.com", "mr@hitfoxgroup.com"]
 
