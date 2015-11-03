@@ -1,3 +1,5 @@
+require 'rails/generators'
+
 module Wirecard
   module Generators
     class ConfigGenerator < ::Rails::Generators::Base
